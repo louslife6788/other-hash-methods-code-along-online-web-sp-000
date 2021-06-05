@@ -9,5 +9,9 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  foods = []
+  groceries.collect do |type, food|
+    foods << food
+  end
+food#code your solution here!
 end
