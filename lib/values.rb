@@ -9,9 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  foods = []
-  groceries.collect do |type, food|
-    foods << food
-  end
-food#code your solution here!
+  groceries.values.flatten
 end
